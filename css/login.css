@@ -1,3 +1,60 @@
+/****************** MAIN ***************/
+#main_panel{
+    width: 100%;
+    height: 100%;
+    display: flex;   
+    background-color: rgb(8, 7, 7);
+}
+
+/****************** LOGIN PANEL ***************/
+
 #login_panel{
+    width: 50%;
+    height: 100%;
+    background-color:var(--color_light_default);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/****************** LOGO PANEL ***************/
+#logo_panel{
+    width: 50%;
+    height: 100%;
     background-color:var(--color_dark_default);
+    background-image: url("../images/logo3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    bottom: 50px;
+}
+
+/****************** FORM PANEL ***************/
+#login_panel > #form_panel {
+    width: 70%;
+    height: 50%;    
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/****************** FORM CONTENT ***************/
+#form_panel > #title_panel{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(184, 136, 136);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form_panel > #content_panel{
+    width: 100%;
+    height: 80%;
+    background-color: blue;
 }
