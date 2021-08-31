@@ -1,7 +1,8 @@
 * {
     margin: 0; /*espaço externo*/
     padding: 0; /*espaço interno*/
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    font-family: "Roboto-Regular";
 }
 
 html, body{
