@@ -116,8 +116,9 @@
 {
     from{
         opacity: 0;
-        transform: translateY(-500px);
+        transform: translateY(-50px);
     }
+    
     to{
         opacity: 1;
         transform: translateY(0px);
@@ -127,7 +128,9 @@
 
 .animation-up {
     animation-name: up;
-    animation-duration:3000ms;
+    animation-duration:1000ms;
     animation-fill-mode: backwards;
+
+    /* animation: 3s linear 1s infinite alternate slidein; */
 }
 
