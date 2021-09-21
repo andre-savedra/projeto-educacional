@@ -1,5 +1,6 @@
-:root{
+:root {
     --color_dark_default: rgb(56, 54, 54);
     --color_light_default: rgb(236, 228, 228);
+    --width_barside: 200px;
+    --height_header: 100px;
 }
-

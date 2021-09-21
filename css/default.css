@@ -1,0 +1,34 @@
+.dimension_default {
+    width: 100%;
+    height: 100%;
+}
+
+.display_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.display_column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.animation-up {
+    animation-name: up;
+    animation-duration: 1500ms;
+}
+
+@keyframes up {
+    0% {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

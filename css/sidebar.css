@@ -1,0 +1,12 @@
+#logo_side {
+    background-color: blue;
+}
+
+#logo_side>img {
+    width: 50%;
+    margin: 5px;
+}
+
+#logo_side>p {
+    animation-delay: 500ms;
+}

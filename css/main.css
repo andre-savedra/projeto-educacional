@@ -1,0 +1,29 @@
+/************* SIDEBAR ***********/
+
+#main-side {
+    height: 100%;
+    width: var(--width_barside);
+    justify-content: start;
+    background-color: red;
+}
+
+
+/*************   MAIN   ***********/
+
+main {
+    height: 100%;
+    width: calc(100% - var(--width_barside));
+    background-color: purple;
+}
+
+main>#main-header {
+    width: 100%;
+    height: var(--height_header);
+    background-color: grey;
+}
+
+main>#main-content {
+    width: 100%;
+    height: calc(100% - var(--height_header));
+    background-color: orange;
+}
