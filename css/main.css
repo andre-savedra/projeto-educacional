@@ -4,7 +4,7 @@
     height: 100%;
     width: var(--width_barside);
     justify-content: start;
-    background-color: red;
+    background-color: var(--color_dark_default);
 }
 
 
