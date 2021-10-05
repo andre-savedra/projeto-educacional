@@ -31,7 +31,17 @@
                     </button>
                 </h2>
                 <div id="collapsed_div1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body"> Olá estou usando Accordion! </div>
+                    <div class="accordion-body">
+                        <ul>
+                            <li>
+                                <button view="rendimento" onclick="ajaxContent(this)">Rendimento</button>
+                            </li>
+                            <li>
+                                <button view="assiduidade" onclick="ajaxContent(this)">Assiduidade</button>
+                            </li>
+                        </ul>
+
+                    </div>
                 </div>
             </div>
 
@@ -88,5 +98,6 @@
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src="../js/ajax.js"></script>
 
 </html>
